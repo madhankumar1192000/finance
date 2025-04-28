@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f6fc;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    background: linear-gradient(to right, #ffffff, #e1bfe4);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  input, select, button {
+    padding: 10px;
+    margin: 10px 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #9309e4;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #4CAF50;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .progress-bar-container {
+    margin-top: 30px;
+    
+  }
+  
+  .progress {
+    background-color: #eee;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 30px;
+    border: 1px solid #7100b3;
+  }
+  
+  .progress-bar {
+    height: 30px;
+    background-color: #f555ad;
+    width: 0%;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+  }
+  
+  /* --------------------- */
+  /* MEDIA QUERIES SECTION */
+  /* --------------------- */
+  
+  /* Small tablets and large phones (landscape) */
+  @media (max-width: 768px) {
+    .container {
+      padding: 20px;
+    }
+  
+    input, select, button {
+      font-size: 16px;
+    }
+  
+    th, td {
+      font-size: 14px;
+      padding: 8px;
+    }
+  }
+  
+  /* Mobile phones */
+  @media (max-width: 480px) {
+    .container {
+      padding: 15px;
+    }
+  
+    h1, h2 {
+      font-size: 22px;
+    }
+  
+    input, select, button {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    button {
+      padding: 10px;
+    }
+  
+    th, td {
+      font-size: 12px;
+      padding: 6px;
+    }
+  
+    .progress {
+      height: 25px;
+    }
+  
+    .progress-bar {
+      line-height: 25px;
+      font-size: 12px;
+    }
+  }
+  
